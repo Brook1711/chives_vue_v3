@@ -1,0 +1,37 @@
+{
+  "name": "chives_vue_v3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.1.2",
+    "assjs": "^0.0.11",
+    "axios": "^0.21.1",
+    "browserify": "^17.0.0",
+    "core-js": "^3.10.0",
+    "dplayer": "^1.26.0",
+    "shaka-player": "^3.0.10",
+    "videojs": "^1.0.0",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^4.0.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7",
+    "sass": "^1.32.8",
+    "vite": "^2.1.5"
+  }
+}
