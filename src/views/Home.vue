@@ -1,8 +1,8 @@
 <template>
     <div class="nav-bar">
-        <span class="username">{{ userInfo.username }}</span>
+        <span class="username">hello</span>
         <a-divider type="vertical" />
-        <a-button type="primary" @click="logout"> 登出 </a-button>
+        <!-- <a-button type="primary" @click="logout"> 登出 </a-button> -->
     </div>
 <!--    <Todolist />-->
     <ChivesPlayer />

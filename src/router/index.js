@@ -9,15 +9,15 @@ const routes = [
     {
         path: "/",
         name: 'home',
-        meta: { noAuth: false },
+        meta: { noAuth: true },
         component: () => import("../views/Home.vue"),
     },
-    {
-        path: "/login",
-        name: "login",
-        meta: { noAuth: true },
-        component: () => import("../views/Login.vue"),
-    },
+    // {
+    //     path: "/login",
+    //     name: "login",
+    //     meta: { noAuth: true },
+    //     component: () => import("../views/Login.vue"),
+    // },
 ];
 
 const router = createRouter({
